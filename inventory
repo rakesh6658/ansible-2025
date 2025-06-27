@@ -1,16 +1,1 @@
-167.25.262.27
-172.262.263.262
-[mongodb]
-roboshop.us.dev.db.mongodb.joindevops.store
-[mysql]
-roboshop.us.dev.db.mysql.joindevops.store
-[cart]
-roboshop.us.dev.app.cart.joindevops.store
-[user]
-roboshop.us.dev.app.user.joindevops.store
-[db:children]
-mysql
-mongodb
-[app:children]
-cart
-user
+3.237.195.9
