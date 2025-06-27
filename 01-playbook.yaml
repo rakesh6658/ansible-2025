@@ -1,0 +1,17 @@
+- name: rakesh
+  hosts: 3.237.195.9
+  become: yes
+  tasks:
+  - name: intalling nginx
+    ansible.builtin.yum:
+      name: nginx
+      state: present
+  - name: starting nginx
+    ansible.builtin.service: 
+      name: nginx
+      state: installed
+    
+     
+      
+
+    
