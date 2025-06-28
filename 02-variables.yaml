@@ -1,7 +1,7 @@
 - name: creating variables at play level
   hosts: node
   vars:
-    name: rakesh
+    name1: rakesh
     course: devops
     duration: two months
   tasks:

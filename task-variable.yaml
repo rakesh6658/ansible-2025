@@ -1,0 +1,12 @@
+- name: task level variables
+  hosts: node
+  vars:
+    name1: rakesh
+    course: devops
+    duration: two months
+  tasks:
+  - name: variables at task level
+    vars:
+      duration: three months
+    ansible.builtin.debug:
+      msg: "my name is {{name1}} and course is {{course}} with duration is {{duration}}"  
