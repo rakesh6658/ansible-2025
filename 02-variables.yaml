@@ -1,5 +1,5 @@
 - name: creating variables at play level
-  hosts: 44.200.227.96
+  hosts: node
   vars:
     name: rakesh
     course: devops
