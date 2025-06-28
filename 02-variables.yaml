@@ -1,0 +1,10 @@
+- name: creating variables at play level
+  hosts: 44.200.227.96
+  vars:
+    name: rakesh
+    course: devops
+    duration: two months
+  tasks:
+  - name: printing variables
+    ansible.builtin.debug:
+      msg: "my name is {{name}} and course is {{course}} with {{duration}} duration"  
