@@ -1,7 +1,7 @@
 - name: variables precedence
   hosts: mongodb
-  vars:
-    name1: rakesh_from_play_level
+  # vars:
+  #   name1: rakesh_from_play_level
   # vars_files:
   #   variables.yaml
   # vars_prompt:
