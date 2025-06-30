@@ -1,5 +1,5 @@
 [mongodb]
 3.238.39.31
 [mongodb:vars]
-name1=rakesh_from_vars
+name1=rakesh_from_inventory
 course=devops
