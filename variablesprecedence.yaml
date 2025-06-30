@@ -4,10 +4,10 @@
     name1: rakesh_from_play_level
   # vars_files:
   #   variables.yaml
-  vars_prompt:
-    - name: name1
-      prompt: what is your name?
-      private: false
+  # vars_prompt:
+  #   - name: name1
+  #     prompt: what is your name?
+  #     private: false
 
         
   tasks:
@@ -20,3 +20,4 @@
 #1.command line
 #2. task
 #3. files
+#4. prompt
