@@ -1,6 +1,6 @@
 - name: loops from ansible
   hosts: localhost
-  loops:
+  loop:
     - rakesh
     - dubbu
     - lucky
