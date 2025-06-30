@@ -12,8 +12,10 @@
         
   tasks:
   - name: variables precedence
-    vars:
-      name1: rakesh_from_task
+    #vars:
+     # name1: rakesh_from_task
     ansible.builtin.debug:
       msg: "my name is {{name1}}" 
 
+#1.command line
+#2. task
