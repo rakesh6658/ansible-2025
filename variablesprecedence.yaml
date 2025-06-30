@@ -12,8 +12,8 @@
         
   tasks:
   - name: variables precedence
-    ansible.builtin.debug:
     vars:
       name1: rakesh_from_task
+    ansible.builtin.debug:
       msg: "my name is {{name1}}" 
 
