@@ -5,9 +5,9 @@
   vars_files:
     variables.yaml
   vars_prompt:
-    name: name1
-    prompt: what is your name?
-    private: false 
+    - name: name1
+      prompt: what is your name?
+      private: false
 
         
   tasks:
