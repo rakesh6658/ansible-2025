@@ -3,9 +3,9 @@
   vars:
     name1: rakesh_from_play_level
   vars_files:
-     variables.yaml
+    variables.yaml
   vars_prompt:
-  - name: name1
+    name: name1
     prompt: what is your name?
     private: false 
 
