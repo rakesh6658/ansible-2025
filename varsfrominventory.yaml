@@ -1,0 +1,6 @@
+- name: vars from inventory
+  hosts: mongodb
+  tasks:
+  - name: vars from inventory
+    ansible.builtin.debug:
+      msg: "my name is {{name1}} and course is {{course}}"

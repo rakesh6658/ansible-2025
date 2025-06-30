@@ -1,2 +1,5 @@
-[node]
-44.200.227.96
+[mogodb]
+3.238.39.31
+[mogodb:vars]
+name1=rakesh_from_vars
+course=devops
