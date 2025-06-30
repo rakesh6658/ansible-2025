@@ -1,5 +1,5 @@
 - name: variables from prompt
-  hosts: node
+  hosts: localhost
   vars_prompt:
     - name: username
       prompt: what is your name?
