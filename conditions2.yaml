@@ -13,4 +13,4 @@
       ansible.builtin.file:
         path: /home/ec2-user/app
         state: directory
-      when: output.stat.exists == false      
+      #when: output.stat.exists == false      
