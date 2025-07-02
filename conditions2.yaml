@@ -1,5 +1,5 @@
 - name: checking directory exists or not
-  hosts: become
+  hosts: localhost
   become: yes
   tasks:
     - name: checking directory exists or not
