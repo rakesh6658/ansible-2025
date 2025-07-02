@@ -1,0 +1,11 @@
+- name: checking directory exists or not
+  hosts: become
+  become: yes
+  tasks:
+    - name: checking directory exists or not
+      ansible.builtin.stat: 
+        path: /home/ec2-user/app
+      register: output
+    - name: printing output
+      ansible.builtin.debug:
+        msg: "{{output}}"    
