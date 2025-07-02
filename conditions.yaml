@@ -1,0 +1,10 @@
+- name: checking user exits or not
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: checking user exists or not
+      ansible.builtin.command: id roboshop
+      register: output
+    - name: printing the output
+      ansible.builtin.debug:
+        msg: "{{output}}"    
