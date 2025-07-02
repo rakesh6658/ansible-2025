@@ -9,3 +9,8 @@
     - name: printing output
       ansible.builtin.debug:
         msg: "{{output}}"    
+    - name: creating directory
+      ansible.builtin.file:
+        path: /home/ec2-user/app
+        state: directory
+      when: output.stat.exists == false      
