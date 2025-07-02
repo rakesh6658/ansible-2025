@@ -1,10 +1,10 @@
 - name: loops from ansible
   hosts: localhost
-  loop:
+  loops:
     - rakesh
     - dubbu
     - lucky
   tasks:
   - name: loops from task
     ansible.builtin.debug:
-      msg: "{{item}}"  
+      msg: "{{ item }}"  
